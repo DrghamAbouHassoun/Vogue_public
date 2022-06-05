@@ -1,0 +1,45 @@
+.hero-section {
+    background-color: $pink-color;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .hero-box {
+        text-align: center;
+        width: 85%;
+        margin: 2rem auto;
+        h1 {
+            font-size: 6.4rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 4.8rem;
+            font-weight: 400;
+        }
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .hero-section .hero-box {
+        h1 {
+            font-size: 5.4rem;
+        }
+        p {
+            font-size: 3rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .hero-section .hero-box {
+        h1 {
+            font-size: 3.4rem;
+        }
+        p {
+            font-size: 2rem;
+        }
+    }
+}

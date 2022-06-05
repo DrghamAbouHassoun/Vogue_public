@@ -1,0 +1,26 @@
+[
+        {
+            "id" : 1,
+            "image" : "./assets/images/slider/slide-1.png",
+            "text" : [
+                "Finding clothes that fit",
+                "البحث عن الملابس الملائمة"
+            ],
+            "button" : [
+                "Sign up",
+                "تسجيل الدخول"
+            ]
+        },
+        {
+            "id" : 2,
+            "image" : "./assets/images/slider/slide-2.png",
+            "text" : [
+                "Finding clothes that fit",
+                "البحث عن الملابس الملائمة"
+            ],
+            "button" : [
+                "Sign up",
+                "تسجيل الدخول"
+            ]
+        }
+]

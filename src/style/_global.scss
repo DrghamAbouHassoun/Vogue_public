@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+
+// .app, .App {
+//     position: relative;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     height: 100%;
+// }
+
+.App {
+    direction: ltr;
+    &.ar {
+        h1, h2, h3, h4, h5, h6, p {
+            direction: rtl;
+        }
+    }
+}
+
+.custom-container {
+    width: 80%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.home {
+    // position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.button {
+    padding: .5rem 4.3rem;
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 1.5rem;
+    transition: background-color ease-in .6s;
+    transition: color ease-in .6s;
+    border: none;
+}
+
+.button-primary {
+    background-color: black;
+    color: white;
+
+    &:hover {
+        background-color: white;
+        color: black;
+    }
+}
+
+.bg-pink {
+    background-color: $pink-color;
+}
+
+.modal-container {
+    position: relative;
+}
+
+.category-modal {
+    height: 100%;
+    .modal-background {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.2);
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: opacity ease .2s;
+        opacity: 0;
+        z-index: -1;
+    }
+
+
+    .modal-image {
+        z-index: 1;
+    }
+
+    img {
+        width: 20%;
+        position: fixed;
+        top: 0;
+        left: 40%;
+        margin: 3rem auto;
+        display: none;
+        // opacity: 0;
+    }
+
+    &.active {
+        .modal-background {
+            opacity: 1;
+        }
+
+        // display: flex;
+        // z-index: 1;
+
+        img {
+            opacity: 1;
+            z-index: 10;
+            display: block;
+            // position: fixed;
+        }
+    }
+}

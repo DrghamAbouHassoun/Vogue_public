@@ -1,0 +1,14 @@
+[
+    {
+        "text" : ["Fashion", "الموضة"],
+        "url" : "/products"
+    },
+    {
+        "text" : ["Beauty", "الجمال"],
+        "url" : "/beauty"
+    },
+    {
+        "text" : ["Arts & LifeStyle", "الفن"],
+        "url" : "/"
+    }
+]

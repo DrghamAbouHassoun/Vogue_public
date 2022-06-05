@@ -1,0 +1,68 @@
+.sujested-section {
+    width: 95%;
+    margin: 1rem auto;
+
+    .title {
+        margin: 3rem 0;
+        text-transform: uppercase;
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+}
+
+.product-card {
+    img {
+        width: 100%;
+        object-fit: cover;
+        transition: ease-in .2s;
+        cursor: pointer;
+    }
+    h1 {
+        text-transform: uppercase;
+        font-size: 2.4rem;
+        font-weight: 400;
+    }
+    p {
+        font-size: 2.4rem;
+        font-weight: 400;
+    }
+    
+    
+    .first-image {
+        position: absolute;
+    }
+
+    .image-container:hover {
+        .first-image {
+            opacity: 0;
+        }
+    }
+}
+
+.product-card-two {
+
+    img {
+        width: 100%;
+        object-fit: cover;
+        transition: ease-in .5s;
+        // position: static;
+        top: 0;
+
+        &:hover {
+            transform: scale(1.3);
+        }
+    }
+
+}
+
+.swiper-button-next {
+    color: red;
+}
+
+@media only screen and (max-width: 320px) {
+    .product-card {
+        h1, p {
+            font-size: 1.7rem;
+        }
+    }
+}

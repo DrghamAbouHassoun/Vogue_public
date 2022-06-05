@@ -1,0 +1,53 @@
+.shipping-section {
+    margin: 10rem 0;
+
+    .title {
+        font-size: 2.4rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 3rem;
+    }
+
+    .shipping-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .shipping-card {
+        display: inline-block;
+        width: 25rem;
+        transition: ease 1s;
+        margin: 0 1rem;
+        &:hover {
+            transform: scale(1.1);
+            transform-origin: center;
+            margin: 0rem 4rem;
+            width: 45%;
+            z-index: 2;
+            margin-right: 4rem;
+            
+        }
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .shipping-slider {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .shipping-section {
+        .shipping-row {
+            display: none;
+        }
+        .shipping-slider {
+            display: block;
+        }
+    }
+}
