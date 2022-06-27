@@ -1,0 +1,142 @@
+.breadcrumb {
+    margin: 4rem 0;
+    .breadcrumb-item {
+        font-size: 2rem;
+    }
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter-item {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;   
+}
+
+.filter-icon-container {
+    margin-right: 2rem;
+
+    button {
+        background-color: inherit;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        transition: ease-in .5s;
+        border-radius: .5rem;
+        
+        &:hover {
+            box-shadow: 1px 1px 2px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        &.active {
+            border: 2px solid rgba(0, 0, 0, .9);
+        }
+    }
+    
+    span {
+        font-size: 2rem;
+    }
+}
+
+.column-2 {
+    width: 100%;
+    font-size: 2rem;
+
+    select {
+        margin-left: 1rem;
+        padding: 1rem;
+        border-radius: .5rem;
+    }
+}
+
+.products-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    // gap: 10px;
+
+    .column-4 {
+        width: 25%;
+
+        // .card-two {
+        //     margin: 2rem;
+        // }
+    }
+
+    .column-3 {
+        width: 33%;
+
+        // .card-two {
+        //     margin: 3rem;
+        // }
+    }
+
+    .column-2 {
+        width: 50%;
+
+        // .card-two {
+        //     margin: 6rem;
+        // }
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .column-2 {
+        font-size: 1.7rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .column-2 {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 1010px) {
+    .products-grid {
+        .column-4 {
+            width: 33%;
+        }
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .column-2 {
+        width: 100%;
+    }
+
+    .products-grid {
+        .column-3, .column-4 {
+            width: 50%;
+
+            .card-two {
+                margin: 1rem;
+            }
+        }
+    }
+
+    .view {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .products-grid {
+        .column-2, .column-3, .column-4 {
+            width: 100%;
+
+            .card-two {
+                margin: 2rem;
+            }
+        }
+    }
+}

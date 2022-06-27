@@ -2,19 +2,28 @@
     {
         "imageOne" : "./assets/images/t-shirt-2.png",
         "imageTwo" : "./assets/images/image-9.png",
-        "description" : "vogue emproidered sweatshirt in pink",
+        "description" : [
+            "vogue emproidered sweatshirt in pink",
+            "العنوان"
+        ],
         "price" : 129
     },
     {
         "imageOne" : "./assets/images/t-shirt-1.png",
         "imageTwo" : "./assets/images/image-8.png",
-        "description" : "vogue emproidered sweatshirt in pink",
+        "description" : [
+            "vogue emproidered sweatshirt in pink",
+            "العنوان"
+        ],
         "price" : 129
     },
     {
         "imageOne" : "./assets/images/t-shirt-2.png",
         "imageTwo" : "./assets/images/image-9.png",
-        "description" : "vogue emproidered sweatshirt in pink",
+        "description" : [
+            "vogue emproidered sweatshirt in pink",
+            "العنوان"
+        ],
         "price" : 129
     }
 ]

@@ -1,13 +1,15 @@
 import React from 'react'
-import AccordList from '../components/Accord/AccordList';
+// import AccordList from '../components/Accord/AccordList';
 import Navbar from '../components/Navbar';
+import Accordion from '../components/Accordion/Accordion';
+import accordion from '../data/Accordion.json';
 
 const Beauty = () => {
   return (
     <div>
         <Navbar />
         <div className="custom-container">
-          <AccordList />
+          <Accordion elements={accordion} />
         </div>
     </div>
   )

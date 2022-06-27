@@ -1,0 +1,50 @@
+[
+    {
+        "image" : "./assets/images/image-1.png",
+        "title" : "Card Title",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "price" : 450
+    },
+    {
+        "image" : "./assets/images/image-2.png",
+        "title" : "Card Title",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "price" : 450
+    },
+    {
+        "image" : "./assets/images/image-3.png",
+        "title" : "Card Title",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "price" : 450
+    },
+    {
+        "image" : "./assets/images/image-4.png",
+        "title" : "Card Title",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "price" : 450
+    },
+    {
+        "image" : "./assets/images/image-5.png",
+        "title" : "Card Title",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "price" : 450
+    },
+    {
+        "image" : "./assets/images/image-6.png",
+        "title" : "Card Title",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "price" : 450
+    },
+    {
+        "image" : "./assets/images/image-7.png",
+        "title" : "Card Title",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "price" : 450
+    },
+    {
+        "image" : "./assets/images/image-8.png",
+        "title" : "Card Title",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "price" : 450
+    }
+]

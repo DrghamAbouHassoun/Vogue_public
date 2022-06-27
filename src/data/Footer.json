@@ -1,0 +1,36 @@
+{
+    "boxOne" : {
+        "title" : [
+            "VOGUE",
+            "فوغو"
+        ],
+        "description" : [
+            "The latest fashion news, beauty coveage, celebrity style, fashion week updates, culture reviews, and videos on Vogue.com",
+            "الوصف الوصف الوصف الوصف الوصف الوصف الوصف الوصف الوصف الوصف الوصف الوصف الوصف الوصف الوصف الوصف "
+        ]
+    },
+    "listOne" : [
+        [
+            "About VOGUE",
+            "معلومات الموقع"
+        ],
+        [
+            "Contact us",
+            "تواصل معنا"
+        ]
+    ],
+    "listTwo" : [
+        [
+            "FASHION",
+            "الموضة"
+        ],
+        [
+            "Beauty",
+            "الجمال"
+        ],
+        [
+            "Arts & Lifestyle",
+            "الفن"
+        ]
+    ]
+}

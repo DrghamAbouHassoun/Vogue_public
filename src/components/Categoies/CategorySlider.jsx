@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/autoplay'
 import categories from '../../data/Categories.json';
-import SwiperCore, { Autoplay, Navigation, Pagination, Zoom } from 'swiper';
+import SwiperCore, { Autoplay, Navigation, Pagination, Zoom, A11y } from 'swiper';
 import CategoryCard from './CategoryCard';
 
 const CategorySlider = ({handleImageChange}) => {
@@ -12,7 +12,7 @@ const CategorySlider = ({handleImageChange}) => {
   return (
     <div className="categories-section">
         <Swiper 
-            modules={[Autoplay, Navigation, Pagination, Zoom]}
+            modules={[Autoplay, Navigation, Pagination, Zoom, A11y]}
             autoplay={{
                 delay : 2000,
                 disableOnInteraction : false

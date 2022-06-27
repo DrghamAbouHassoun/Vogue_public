@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Hero = () => {
+const Hero = ({title, subtitle}) => {
   return (
     <div>
         <section className="hero-section">
           <div className="container">
             <div className="hero-box">
-              <h1>fashion</h1>
-              <p>The Jumpsuit in Street Style, From 2017 to Today</p>
+              <h1>{title}</h1>
+              <p>{subtitle}</p>
             </div>
           </div>
         </section>

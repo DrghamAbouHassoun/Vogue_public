@@ -1,0 +1,26 @@
+[
+    {
+        "image" : "./assets/images/image-6.png",
+        "title" : "Card Title",
+        "description" : "Greyhound divisively hello coldly wonderfully marginally far upon excluding",
+        "price" : 455
+    },
+    {
+        "image" : "./assets/images/image-2.png",
+        "title" : "Card Title",
+        "description" : "Greyhound divisively hello coldly wonderfully marginally far upon excluding",
+        "price" : 455
+    },
+    {
+        "image" : "./assets/images/image-4.png",
+        "title" : "Card Title",
+        "description" : "Greyhound divisively hello coldly wonderfully marginally far upon excluding",
+        "price" : 455
+    },
+    {
+        "image" : "./assets/images/image-7.png",
+        "title" : "Card Title",
+        "description" : "Greyhound divisively hello coldly wonderfully marginally far upon excluding",
+        "price" : 455
+    }
+]

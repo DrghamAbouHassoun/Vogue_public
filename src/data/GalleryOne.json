@@ -1,0 +1,83 @@
+[
+    {
+        "image" : "./assets/images/gallery/g1.jpg",
+        "title" : ["fashion 1", "موضة 1"],
+        "subtitle" : ["SUBTITLE MAKE IT", "عنوان ثانوي"]
+    },
+    {
+        "image" : "./assets/images/gallery/g2.jpg",
+        "title" : ["fashion 2", "موضة 1"],
+        "subtitle" : ["SUBTITLE MAKE IT", "عنوان ثانوي"]
+    },
+    {
+        "image" : "./assets/images/gallery/g3.jpg",
+        "title" : ["fashion 3", "موضة 1"],
+        "subtitle" : ["SUBTITLE MAKE IT", "عنوان ثانوي"]
+    },
+    {
+        "image" : "./assets/images/gallery/g4.jpg",
+        "title" : ["fashion 4", "موضة 1"],
+        "subtitle" : ["SUBTITLE MAKE IT", "عنوان ثانوي"]
+    },
+    {
+        "image" : "./assets/images/gallery/g5.jpg",
+        "title" : ["fashion 1", "موضة 1"],
+        "subtitle" : ["SUBTITLE MAKE IT", "عنوان ثانوي"]
+    },
+    {
+        "image" : "./assets/images/gallery/g6.jpg",
+        "title" : ["fashion 2", "موضة 1"],
+        "subtitle" : ["SUBTITLE MAKE IT", "عنوان ثانوي"]
+    },
+    {
+        "image" : "./assets/images/gallery/g7.jpg",
+        "title" : ["fashion 3", "موضة 1"],
+        "subtitle" : ["SUBTITLE MAKE IT", "عنوان ثانوي"]
+    },
+    {
+        "image" : "./assets/images/gallery/g8.jpg",
+        "title" : ["fashion 4", "موضة 1"],
+        "subtitle" : ["SUBTITLE MAKE IT", "عنوان ثانوي"]
+    },
+    {
+        "image" : "./assets/images/gallery/g9.jpg",
+        "title" : ["fashion 1", "موضة 1"],
+        "subtitle" : ["SUBTITLE MAKE IT", "عنوان ثانوي"]
+    },
+    {
+        "image" : "./assets/images/gallery/g10.jpg",
+        "title" : ["fashion 2", "موضة 1"],
+        "subtitle" : ["SUBTITLE MAKE IT", "عنوان ثانوي"]
+    },
+    {
+        "image" : "./assets/images/gallery/g11.jpg",
+        "title" : ["fashion 3", "موضة 1"],
+        "subtitle" : ["SUBTITLE MAKE IT", "عنوان ثانوي"]
+    },
+    {
+        "image" : "./assets/images/gallery/g12.jfif",
+        "title" : ["fashion 4", "موضة 1"],
+        "subtitle" : ["SUBTITLE MAKE IT", "عنوان ثانوي"]
+    },
+    {
+        "image" : "./assets/images/gallery/g13.jpg",
+        "title" : ["fashion 1", "موضة 1"],
+        "subtitle" : ["SUBTITLE MAKE IT", "عنوان ثانوي"]
+    },
+    {
+        "image" : "./assets/images/gallery/g14.jpg",
+        "title" : ["fashion 2", "موضة 1"],
+        "subtitle" : ["SUBTITLE MAKE IT", "عنوان ثانوي"]
+    },
+    {
+        "image" : "./assets/images/gallery/g15.jpg",
+        "title" : ["fashion 3", "موضة 1"],
+        "subtitle" : ["SUBTITLE MAKE IT", "عنوان ثانوي"]
+    },
+    {
+        "image" : "./assets/images/gallery/g16.jpg",
+        "title" : ["fashion 4", "موضة 1"],
+        "subtitle" : ["SUBTITLE MAKE IT", "عنوان ثانوي"]
+    }
+    
+]

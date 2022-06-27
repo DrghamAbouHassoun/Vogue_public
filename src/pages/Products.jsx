@@ -7,6 +7,11 @@ import sujested from '../data/Sujested.json';
 import ShippingSection from '../components/Shipping/ShippingSection';
 import { useSelector } from 'react-redux/es/exports';
 import sections from '../data/Sections.json';
+import ProductsSection from '../components/Products/ProductsSection';
+import productstwo from '../data/ProductsTwo.json';
+import GalleryTwo from '../components/GalleryTwo/GalleryTwo';
+import fashion from '../data/Fashion.json';
+import Footer from '../components/Footer';
 
 const Products = () => {
   const lang = useSelector(state => state.lang.language);
@@ -22,7 +27,10 @@ const Products = () => {
     <div className="modal-container">
       <Navbar className="bg-pink" />
       <main>
-        <Hero />
+        <Hero 
+          title={lang ? fashion.title[0] : fashion.title[1]} 
+          subtitle={lang ? fashion.subtitle[0] : fashion.subtitle[1]}
+        />
         <div className="custom-container">
           <CategorySlider handleImageChange={handleImageChange} />
           <SujestedSection 
@@ -34,8 +42,12 @@ const Products = () => {
           <ShippingSection 
             title={lang ? sections.shippers.title[0] : sections.shippers.title[1]}
           />
+          <ProductsSection products={productstwo} />
+          <GalleryTwo />
         </div>
       </main>
+
+      <Footer />
 
       <div className={`category-modal ${image ? 'active' : ''}`}>
         <div className="modal-background">
@@ -49,6 +61,7 @@ const Products = () => {
           />
         </div>
       </div>
+
     </div>
   )
 }

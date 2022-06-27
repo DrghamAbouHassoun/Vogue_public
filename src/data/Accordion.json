@@ -1,0 +1,80 @@
+[
+    {
+        "logo" : "./assets/images/accordion/item1.png",
+        "title" : [
+            "vogue cap black with rainbow logo",
+            "العنوان الاول"
+        ],
+        "firstText" : [
+            "VOGUE cap in black with colorful logo embroidery made of 100% cotton. The VOGUE cap made of solid cotton quality is sustainably and fairly manufactured in Portugal.",
+            "النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي "
+        ],
+        "list" : {
+            "itemOne" : [
+                "Small, high quality logo embroidery",
+                "العنصر الاول"
+            ],
+            "itemTwo" : [
+                "Size adjustable",
+                "العنصر الثاني"
+            ]
+        },
+        "secondText" : [
+            " Combine the cap with the matching hoodie and sweatshirt.",
+            "النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي "
+            
+        ]
+    },
+    {
+        "logo" : "./assets/images/accordion/item2.png",
+        "title" : [
+            "VOGUE COLLECTION White Logo Tee Black",
+            "العنوان الثاني"
+        ],
+        "firstText" : [
+            "VOGUE cap in black with colorful logo embroidery made of 100% cotton. The VOGUE cap made of solid cotton quality is sustainably and fairly manufactured in Portugal.",
+            "النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي "
+        ],
+        "list" : {
+            "itemOne" : [
+                "Small, high quality logo embroidery",
+                "العنصر الاول"
+            ],
+            "itemTwo" : [
+                "Size adjustable",
+                "العنصر الثاني"
+            ]
+        },
+        "secondText" : [
+            " Combine the cap with the matching hoodie and sweatshirt.",
+            "النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي "
+            
+        ]
+    },
+    {
+        "logo" : "./assets/images/accordion/item3.png",
+        "title" : [
+            "VOGUE Hoodie Black with logo embroidery",
+            "العنوان الثالث"
+        ],
+        "firstText" : [
+            "VOGUE cap in black with colorful logo embroidery made of 100% cotton. The VOGUE cap made of solid cotton quality is sustainably and fairly manufactured in Portugal.",
+            "النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي "
+        ],
+        "list" : {
+            "itemOne" : [
+                "Small, high quality logo embroidery",
+                "العنصر الاول"
+            ],
+            "itemTwo" : [
+                "Size adjustable",
+                "العنصر الثاني"
+            ]
+        },
+        "secondText" : [
+            " Combine the cap with the matching hoodie and sweatshirt.",
+            "النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي النص الأولي "
+            
+        ]
+    }
+]

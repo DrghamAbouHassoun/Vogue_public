@@ -4,8 +4,11 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 import { Navigation } from 'swiper';
 import 'swiper/css/navigation';
 import ProductCardTwo from './ProductCardTwo';
+import { useSelector } from 'react-redux/es/exports';
 
 const SujestedSection = ({title, type, columns, products}) => {
+  const lang = useSelector(state => state.lang.language);
+
   return (
     <div className="sujested-section">
         <div className="title">
@@ -38,7 +41,7 @@ const SujestedSection = ({title, type, columns, products}) => {
               <ProductCard 
                 imageOne={product.imageOne}
                 imageTwo={product.imageTwo}
-                description={product.description}
+                description={lang ? product.description[0] : product.description[1]}
                 price={product.price}
               /> :
               <ProductCardTwo 
